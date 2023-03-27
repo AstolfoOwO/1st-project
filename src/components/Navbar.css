@@ -1,0 +1,9 @@
+.buttons {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.settings{
+    padding-top: 20px;
+}

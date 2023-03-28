@@ -1,5 +1,19 @@
 body {
-    height: 90vh;
+height: 100vh;
+background-color: #202020;
+margin: 0;
+padding: 0;
+border: 0;
+font-family: Calibri;
+}
+
+
+a {
+    text-decoration: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #A0A0A0;
 }
 
 .app-wrapper {
@@ -15,17 +29,19 @@ body {
 }
 
 .header {
+    display: flex;
+    align-items: center;
     grid-area: header;
-    background-color: darkgreen;
+    height: 50px;
+    background-color: #404040;
 }
 
 .nav {
     grid-area: nav;
-    background-color: bisque;
-    width: 100px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 .content {
     grid-area: content;
-    background-color: aliceblue;
 }

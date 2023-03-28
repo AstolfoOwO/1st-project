@@ -1,13 +1,13 @@
 import React from "react";
-import './Profile.Header.css';
+import classes from './ProfileHeader.module.css';
 
 const ProfileHeader = () => {
     return(
         <div className={'ProfileHeader'}>
-            <div className={'MainBanner'}>
-                <img className={'banner'} src={'https://phonoteka.org/uploads/posts/2021-04/1619790169_1-phonoteka_org-p-anime-fon-dlya-bannera-2.png'} alt={'ProfileBanner'}/>
+            <div className={classes.MainBanner}>
+                <img className={classes.Banner} src={'https://cdn.discordapp.com/attachments/1006393106381406238/1090157331490295828/profilebanner.jpg'} alt={'ProfileBanner'}/>
             </div>
-            <div>
+            <div className={classes.ProfileHeader__in}>
                 ava + description
             </div>
         </div>

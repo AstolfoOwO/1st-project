@@ -1,0 +1,26 @@
+.MainBanner {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.Banner {
+    display: flex;
+    height: 200px;
+    border-radius: 24px;
+    width: 100%;
+}
+
+@media screen and (max-width: 630px) {
+    .banner {
+        /*height: auto;*/
+    }
+}
+
+.ProfileHeader__in {
+    display: flex;
+    background-color: #404040;
+
+    z-index: 1;
+}
+

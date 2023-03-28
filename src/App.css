@@ -22,6 +22,7 @@ body {
 .nav {
     grid-area: nav;
     background-color: bisque;
+    width: 100px;
 }
 
 .content {

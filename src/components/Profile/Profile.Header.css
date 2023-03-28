@@ -1,0 +1,13 @@
+
+
+.banner {
+    display: flex;
+    height: 150px;
+    width: 600px;
+}
+
+@media screen and (max-width: 630px) {
+    .banner {
+        height: auto;
+    }
+}

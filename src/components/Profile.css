@@ -1,9 +1,0 @@
-.content img {
-    height: 300px;
-}
-
-@media screen and (max-width: 600px) and (max-height: 400px) {
-    .content img {
-        display: none;
-    }
-}

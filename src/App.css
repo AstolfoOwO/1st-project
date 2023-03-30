@@ -1,12 +1,9 @@
 body {
-height: 100vh;
-background-color: #202020;
-margin: 0;
-padding: 0;
-border: 0;
-font-family: Calibri;
+    height: 100vh;
+    background-color: #202020;
+    margin: 0;
+    font-family: Calibri, serif;
 }
-
 
 a {
     text-decoration: none;
@@ -17,31 +14,23 @@ a {
 }
 
 .app-wrapper {
-    display: grid;
-
-    grid-template-areas:
-    "header header"
-    "nav content";
-
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    grid-gap: 5px;
-}
-
-.header {
     display: flex;
-    align-items: center;
-    grid-area: header;
-    height: 50px;
-    background-color: #404040;
+    flex-wrap: wrap;
 }
 
-.nav {
-    grid-area: nav;
-    width: 200px;
-    margin-left: 20px;
+.app-wrapper .MainContent {
+    display: flex;
+    float: left;
+    justify-content: center;
 }
 
-.content {
-    grid-area: content;
+.Content {
+    display: flex;
 }
+
+@media screen and (min-width: 1280px){
+    .app-wrapper {
+        justify-content: center;
+    }
+}
+

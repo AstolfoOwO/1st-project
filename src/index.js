@@ -7,11 +7,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App title={'Данила Иммершн'}/>
   </React.StrictMode>
 );
 
 // Если вы хотите начать измерение производительности в своем приложении, передайте функцию
 // Для регистрации результатов (например: reportWebVitals(console.log))
 // Или отправить на конечную точку аналитики.
-reportWebVitals();
+reportWebVitals(console.log);

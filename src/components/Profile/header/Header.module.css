@@ -1,0 +1,118 @@
+.Header {
+    display: flex;
+    height: 123px;
+}
+
+.MainBanner {
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 911px;
+    height: 277px;
+    background-image: url("https://cdn.discordapp.com/attachments/1006393106381406238/1090309947033661460/profilebanner.jpg");
+    background-repeat: no-repeat;
+}
+
+.MainProfile {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #404040;
+    width: 911px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 220px;
+}
+
+.MainProfileLeft {
+    display: flex;
+}
+
+.MainProfileRight{
+    display: flex;
+}
+
+.MainProfileAvatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.MainProfileAvatar img {
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.OwnerPageName {
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.OwnerPageName h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: -apple-system, sans-serif;
+    margin: 0px;
+}
+
+.OwnerPageInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.OwnerPageInfo a {
+    display: flex;
+    color: white;
+    font-size: 13px;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.OwnerPageInfo a:hover {
+    background-color: #808080;
+}
+
+.OwnerPageInfo i {
+    margin-right: 5px;
+    color: white;
+}
+
+.MainProfileRight {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.MainProfileRight a {
+    display: flex;
+
+    color: white;
+    font-size: 13px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.MainProfileRight a:hover {
+    background-color: #808080;
+}
+
+.MainProfileRight i {
+    margin-right: 5px;
+}
+
+.MainProfileRight svg {
+    margin-right: 5px;
+}

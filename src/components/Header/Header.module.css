@@ -1,15 +1,20 @@
-.logo_img {
-    height: 50px;
-}
-
 .header {
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    float: left;
+    width: 100%;
+    background-color: #404040;
+}
+
+.logo_img {
+    height: 48px;
 }
 
 .logo {
     display: flex;
-    margin-left: 35px;
+    width: 165px;
 }
 
 .logo a {
@@ -19,20 +24,132 @@
     font-size: 20px;
     font-family: "Arial Black", serif;
     font-weight: 10;
+    color: white;
 }
 
-.SearchBox {
+.SearchBox form {
     display: flex;
-    margin-left: 150px;
+    align-items: center;
+    background-color: #606060;
+    border-radius: 8px;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    color: #808080;
 }
 
 .SearchBox input {
     background-color: #606060;
-    background-image: url("https://e7.pngegg.com/pngimages/342/516/png-clipart-computer-icons-search-icon-zooming-user-interface-computer-icons.png");
-    border: 0;
-    border-radius: 10px;
+    border: none;
+    border-radius: 8px;
     height: 32px;
     width: 230px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    color: white;
 }
+
+.SearchBox form i {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.SearchBox input:focus {
+    outline:none;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: Calibri, sans-serif;
+    color: #808080;
+}
+
+.TopBtn {
+    display: flex;
+    margin-left: 15px;
+    height: 48px;
+}
+
+.TopBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    transition: linear;
+}
+
+.TopBtn a:hover {
+    background-color: #808080;
+}
+
+.LeftHeaderLinks {
+    display: flex;
+    align-items: center;
+}
+
+.RightHeaderLinks {
+    display: flex;
+    align-self: flex-end
+}
+
+.Services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #929293;
+    float: right;
+    height: 48px;
+    width: 48px;
+}
+
+.Services:hover {
+    background-color: #808080;
+}
+
+.TopProfileLink {
+    display: flex;
+}
+
+.TopProfileLink a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+.TopProfileLink img {
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.TopProfileLink svg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.TopProfileLink:hover {
+    background-color: #808080;
+}
+
+@media screen and (min-width: 1280px){
+    .header {
+        justify-content: center;
+    }
+
+    .RightHeaderLinks {
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .logo {
+        margin-left: 20px;
+    }
+}
+
